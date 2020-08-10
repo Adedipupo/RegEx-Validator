@@ -10,4 +10,6 @@ const checkInput = (fullName,email,Username,dateOfBirth,website,streetAddress) =
     let websitePattern = / (https:)?(www).\w{2,}.\D{3} $/g
 
     let streetAddressPattern = /\w+(\s\w+){2,}$/gi
+
+        return(fullNamePattern.test(fullName) && emailPattern.test(emailAddress) && usernamePattern.test(username) && datePattern.test(dateOfBirth) && urlPattern.test(website) && addressPattern.test(streetAddress)) 
 }
