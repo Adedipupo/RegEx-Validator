@@ -5,7 +5,9 @@ const checkInput = (fullName,email,Username,dateOfBirth,website,streetAddress) =
 
     let Username =  / ^ [a - z]([0 - 9][0 - 9] +| [a - z] +\d *)$/ i 
 
-    let dateOfBirth = / \d{2}-\d{2}-\d{4} /
+    let dateOfBirth = / \d{2}-\d{2}-\d{4} $/
 
-    let website = 
+    let website = / (https:)?(www).\w{2,}.\D{3} $/g
+
+    let streetAddress = 
 }
