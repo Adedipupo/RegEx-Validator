@@ -1,3 +1,3 @@
 const checkInput = (fullName,email,Username,dateOfBirth,website,streetAddress) = {
-    let fullNamePattern = /  /
+    let fullNamePattern = / \D+ [a - z]\s/
 }
