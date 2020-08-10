@@ -7,5 +7,5 @@ const checkInput = (fullName,email,Username,dateOfBirth,website,streetAddress) =
 
     let dateOfBirth = / \d{2}-\d{2}-\d{4} /
 
-    let website
+    let website = 
 }
