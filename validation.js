@@ -1,3 +1,3 @@
-const checkInput = (fullname,Email,Username,dateOfBirth,website,streetAddress) ={
-    
+const checkInput = (fullName,email,Username,dateOfBirth,website,streetAddress) = {
+    let fullNamePattern = /  /
 }
