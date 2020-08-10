@@ -19,6 +19,10 @@ const checkInput = (fullName,email,Username,dateOfBirth,website,streetAddress) =
              && addressPattern.test(streetAddress)) 
 }
 
-let isValid = inputIsValid("Jokanola Adedipupo Benedict", 
-"jokanolaadedipupo@gmail.com", "Adedipupo13", "09-10-2020", "www.google.com", "No. 7, ogobia ugboju lga, Benue, Nigeria.")
+let isValid = checkInput("Jokanola Adedipupo Benedict", 
+                           "jokanolaadedipupo@gmail.com",
+                           "Adedipupo13", "09-10-2020",
+                           "www.google.com", 
+                           "No. 12, ajao street,ojoo,ibadan , 
+                           Oyo, Nigeria.")
 console.log(isValid);
