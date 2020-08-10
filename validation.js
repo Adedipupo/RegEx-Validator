@@ -11,8 +11,14 @@ const checkInput = (fullName,email,Username,dateOfBirth,website,streetAddress) =
 
     let streetAddressPattern = /\w+(\s\w+){2,}$/gi
 
-        return(fullNamePattern.test(fullName) && emailPattern.test(emailAddress) && usernamePattern.test(username) && datePattern.test(dateOfBirth) && urlPattern.test(website) && addressPattern.test(streetAddress)) 
+        return (fullNamePattern.test(fullName) 
+             && emailPattern.test(emailAddress) 
+             && usernamePattern.test(username) 
+             && datePattern.test(dateOfBirth) 
+             && urlPattern.test(website) 
+             && addressPattern.test(streetAddress)) 
 }
 
-let isValid = inputIsValid("Lawal Godwin", "godLawalinl200e@gy.webmail.com", "myusername", "09-10-2020", "www.google.com", "No. 7, ogobia ugboju lga, Benue, Nigeria.")
+let isValid = inputIsValid("Jokanola Adedipupo Benedict", 
+"jokanolaadedipupo@gmail.com", "Adedipupo13", "09-10-2020", "www.google.com", "No. 7, ogobia ugboju lga, Benue, Nigeria.")
 console.log(isValid);
