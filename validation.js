@@ -9,5 +9,5 @@ const checkInput = (fullName,email,Username,dateOfBirth,website,streetAddress) =
 
     let website = / (https:)?(www).\w{2,}.\D{3} $/g
 
-    let streetAddress = 
+    let streetAddress = /\w+(\s\w+){2,}$/gi
 }
